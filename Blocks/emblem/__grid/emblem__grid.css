@@ -1,0 +1,10 @@
+.emblem__grid {
+    position: relative;
+    width: 1184px;
+    margin-top: 82px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,28 @@
+.emblem__image {
+    position: relative;
+    width: 208px;
+    height: 226px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+
+#novgorod {
+    background-image: url('../../../images/novgorod.png');
+}
+#rostov {
+    background-image: url('../../../images/rostov.png');
+}
+#tambov {
+    background-image: url('../../../images/tambov.png');
+}
+#elabuga {
+    background-image: url('../../../images/elabuga.png');
+}
+#perm {
+    background-image: url('../../../images/perm.png');
+}

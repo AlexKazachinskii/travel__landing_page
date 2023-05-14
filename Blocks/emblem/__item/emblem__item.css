@@ -1,0 +1,10 @@
+.emblem__item {
+    position: relative;
+    width: 208px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

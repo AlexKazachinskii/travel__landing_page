@@ -1,0 +1,22 @@
+.comments__quote {
+    position: relative;
+    width: 100%;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__quote {
+        margin-top: 24px;
+        align-self: center;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

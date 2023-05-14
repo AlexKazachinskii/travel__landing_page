@@ -1,0 +1,26 @@
+.additional__item {
+    position: relative;
+    width: 284px;
+    height: 330px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: contain;
+    
+
+}
+
+#buhta {
+    background-image: url('../../../images/nvrssk.jpg');
+}
+#shihan {
+    background-image: url('../../../images/shickan.jpg');
+}
+#cherepovec {
+    background-image: url('../../../images/cherepovets.jpg');
+}
+#lenivec {
+    background-image: url('../../../images/nikola.jpg');
+}

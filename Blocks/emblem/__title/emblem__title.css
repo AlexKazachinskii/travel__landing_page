@@ -1,0 +1,13 @@
+.emblem__title {
+    position: relative;
+    width: 443px;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+}

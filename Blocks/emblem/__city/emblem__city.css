@@ -1,0 +1,14 @@
+.emblem__city {
+    position: relative;
+    width: 208px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    
+}

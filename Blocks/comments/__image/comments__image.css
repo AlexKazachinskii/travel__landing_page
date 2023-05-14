@@ -1,0 +1,26 @@
+.comments__image {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-self: flex-start;
+    position: relative;
+    width: 97px;
+    height: 97px;
+    background-size: contain;
+    border-radius: 97px;
+}
+
+#lyagushkin {
+    background-image: url('../../../images/lyagushkin.jpg');
+}
+#hafizov {
+background-image: url('../../../images/hafizov.jpg');
+}
+#maximshin{
+background-image: url('../../../images/maksimshin.jpg');
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__image {
+        align-self: center;
+    }
+}

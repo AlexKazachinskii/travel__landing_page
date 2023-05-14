@@ -1,0 +1,15 @@
+.place__heading {
+    position: relative;
+    width: 984px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width : 1279px) {
+.place__heading {
+    width: 100%;
+}
+}

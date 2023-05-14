@@ -1,0 +1,35 @@
+@import url('./place/place.css');
+
+.places {
+position: relative;
+width: 984px;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(5, auto);
+grid-row-gap: 72px;
+margin-top: 92px;
+margin-bottom: 0px;
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+.places {
+    width: 928px;
+    margin-top: 102px;
+    grid-row-gap: 85px;
+}
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .places {
+        width: 95%;
+        margin-top: 102px;
+        grid-row-gap: 87px;
+    }
+}
+@media screen and (max-width : 767px) {
+    .places {
+        width: 95%;
+        margin-top: 64px;
+       
+        grid-row-gap: 48px;
+    }
+}

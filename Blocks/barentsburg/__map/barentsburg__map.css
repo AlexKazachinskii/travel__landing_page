@@ -1,0 +1,9 @@
+.barentsburg__map {
+    position: relative;
+    width: 1184px;
+    height: 464px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+    background-image: url('../../../images/map.jpg');
+    background-size: contain;
+}

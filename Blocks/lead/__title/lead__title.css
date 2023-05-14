@@ -1,0 +1,35 @@
+.lead__title {
+    position: relative;
+    width: 782px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 93px;
+    text-align: center;
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .lead__title{
+        width: 95%;
+        font-size: 96px;
+        line-height: 93px;
+    }
+}
+@media screen and (min-width : 425px) and (max-width : 767px){
+    .lead__title {
+        width: 90%;
+        font-size: 66px;
+        line-height: 63px;
+    }
+}
+@media screen and (max-width : 424px) {
+    .lead__title {
+        width: 90%;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

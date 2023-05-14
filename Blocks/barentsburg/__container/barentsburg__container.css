@@ -1,0 +1,9 @@
+.barentsburg__container {
+    position: relative;
+    width: 1184px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    
+}

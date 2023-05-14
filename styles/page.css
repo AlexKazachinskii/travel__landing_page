@@ -1,0 +1,151 @@
+
+@import url('../Blocks/header/header.css');
+@import url('../Blocks/content/content.css');
+@import url('../Blocks/lead/lead.css');
+@import url('../Blocks/intro/intro.css');
+@import url('../Blocks/photo-grid/photo-grid.css');
+@import url('../Blocks/places/places.css');
+@import url('../Blocks/video/video.css');
+@import url('../Blocks/additional/additional.css');
+@import url('../Blocks/comments/comments.css');
+@import url('../Blocks/cover/cover.css');
+@import url('../Blocks/emblem/emblem.css');
+@import url('../Blocks/barentsburg/barentsburg.css');
+@import url('../Blocks/footer/footer.css');
+
+
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../Fonts/Inter-Black.woff2") format("woff2"),
+         url("../Fonts/Inter-Black.woff") format("woff");
+  }
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../Fonts/Inter-Regular.woff2") format("woff2"),
+         url("../Fonts/Inter-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("../Fonts/Inter-Bold.woff2") format("woff2"),
+         url("../Fonts/Inter-Bold.woff") format("woff");
+  }
+
+.page {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #2A2C2F;
+    overflow: hidden;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .page {
+        width: 100%;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .page {
+        width: 100%;
+    }
+}
+@media screen and (min-width : 425px) and (max-width : 767px) {
+    .page {
+        width: 100%;
+    }
+}
+@media screen and (max-width : 424px) {
+    .page {
+        width: 100%;
+    }
+}
+
+/*div {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+a {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+
+h2 {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+h3 {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+p {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+img {
+    border-width: 0.5px;
+    border-color: red;
+    border-style: solid;
+}
+
+    h1 {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+section {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+
+@media screen and (min-width : 1280px) {
+
+}
+@media screen and (min-width : 1024px) {
+
+}
+@media screen and (min-width : 768px) {
+
+}
+
+@media screen and (min-width : 425px) {
+    
+}
+@media screen and (max-width : 424px) {
+    
+}
+
+*/

@@ -1,0 +1,13 @@
+.content-title {
+    position: relative;
+    width: 800px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+    text-align: center;
+}

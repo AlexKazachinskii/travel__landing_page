@@ -1,0 +1,10 @@
+.barentsburg__url {
+    position: relative;
+    width: 282px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

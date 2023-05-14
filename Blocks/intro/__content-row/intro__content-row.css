@@ -1,0 +1,27 @@
+.intro__content-row {
+    position: relative;
+    width: 683px;
+    margin-top: 48px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+.intro__content-row {
+    width: 100%;
+    
+}
+}
+@media screen and (max-width : 767px) {
+    .intro__content-row {
+        width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 32px;
+    }
+}

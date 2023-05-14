@@ -1,0 +1,16 @@
+@import url('./__comments/place__comments.css');
+@import url('./__image/place__image.css');
+@import url('./__object/place__object.css');
+@import url('./__title/place__title.css');
+@import url('./__website/place__website.css');
+@import url('./__heading/place__heading.css');
+@import url('./__paragraph/place__paragraph.css');
+
+.place {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

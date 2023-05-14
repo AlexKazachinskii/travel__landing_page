@@ -1,0 +1,35 @@
+.video__title {
+    position: relative;
+    width: 322px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video__title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 26px;
+
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .video__title {
+        width: 100%;
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+}
